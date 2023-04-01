@@ -15,6 +15,7 @@
 		D8F241FD29D4824D00917EE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8F241FB29D4824D00917EE9 /* LaunchScreen.storyboard */; };
 		D8F669A329D8594800936F9E /* CryptoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F669A229D8594800936F9E /* CryptoTableViewCell.swift */; };
 		D8F669A929D85E3900936F9E /* CryptoCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F669A829D85E3900936F9E /* CryptoCurrency.swift */; };
+		D8F669AB29D861E500936F9E /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F669AA29D861E500936F9E /* Webservice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		D8F241FE29D4824D00917EE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D8F669A229D8594800936F9E /* CryptoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTableViewCell.swift; sourceTree = "<group>"; };
 		D8F669A829D85E3900936F9E /* CryptoCurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCurrency.swift; sourceTree = "<group>"; };
+		D8F669AA29D861E500936F9E /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		D8F669A729D85D9C00936F9E /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				D8F669AA29D861E500936F9E /* Webservice.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 			files = (
 				D8F669A329D8594800936F9E /* CryptoTableViewCell.swift in Sources */,
 				D8F241F529D4824C00917EE9 /* ViewController.swift in Sources */,
+				D8F669AB29D861E500936F9E /* Webservice.swift in Sources */,
 				D8F241F129D4824C00917EE9 /* AppDelegate.swift in Sources */,
 				D8F669A929D85E3900936F9E /* CryptoCurrency.swift in Sources */,
 				D8F241F329D4824C00917EE9 /* SceneDelegate.swift in Sources */,
